@@ -19,11 +19,11 @@ h1 {
 }
 
 h2{ 
-    fontsize: 27px;
+    font-size: 27px;
 }
 
 h3 { 
-    fontsize: 23px; 
+    font-size: 23px; 
 
 }
     
@@ -35,7 +35,7 @@ nav {
 
 nav a {
     color: black;
-    fontsize: 20;
+    font-size: 20;
     text-decoration: none;
     padding: 10px;
     font-weight: bolder;
