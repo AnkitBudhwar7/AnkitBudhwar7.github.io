@@ -1,36 +1,44 @@
-
+/* I used this to style the body */
 body {
+
     background-color: bisque;
+    /* These are the background editions whuch maintains a balance and gives it an elegant look */
     font-family: 'Times New Roman', Times, serif;
-    text-align:center;
+    text-align: center;
     margin: 1;
-    padding:1;
+    padding: 1;
     border: 1.5px solid;
 }
 
-h1,h2,h3 { 
+h1,
+h2,
+h3 {
+    /* These give the heading a clear look which makes it easy to look at */
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: black;
 }
 
-h1 { 
+h1 {
     font-size: 50px;
+    /* This big font size helps to highlight the main heading*/
 
 }
 
-h2{ 
+h2 {
     font-size: 27px;
+    /* This maintains a balance between the headings to make it easy to categorize*/
 }
 
-h3 { 
-    font-size: 23px; 
+h3 {
+    font-size: 23px;
+    /* This size perfectly fits according to the third heading as it is not much larger than the body fonts and is also clearly visible as a highlight */
 
 }
-    
 
+/* I edited the navigation bar using padding, making the font bolder as well as adding flex-direction to make it look different from the other texts*/
 nav {
     background-color: antiquewhite;
-    
+
 }
 
 nav a {
@@ -46,6 +54,11 @@ nav a hover {
     text-decoration: wavy;
 }
 
+.flex-nav {
+    background-color: beige;
+    padding: 20px;
+    flex-direction: column;
+}
 
 div {
     background-color: beige;
@@ -54,7 +67,7 @@ div {
     border: 1.5px solid;
 }
 
-
+/* I used the same widthb and size for the images to maintain a sequence and show them as a unity*/
 img {
     width: 100;
     height: 100;
@@ -62,42 +75,46 @@ img {
 }
 
 
+/* I used a different boder style for the borders and gave it a quiet light look using  the background color and border style property so it could match with the background*/
 table {
     border-collapse: collapse;
     width: auto;
     background-color: antiquewhite;
     border-style: outset;
     margin: 20px auto;
-    
+    overflow: hidden;
 }
 
-th, td {
+th,
+td {
     border: 1px solid;
     padding: 8px;
     text-align: center;
 }
 
-th { 
+th {
     background-color: beige;
     color: black;
 }
 
-td { 
+td {
     background-color: bisque;
     color: rgb(112, 102, 102);
 }
 
-
+/* I styled the search bar using  a border and  a bg color property*/
 input[type="Go ahead, search"] {
-width: 90%;
-padding: 8px;
-background-color: antiquewhite; 
-border: 1px solid;
+    width: 90%;
+    padding: 8px;
+    background-color: antiquewhite;
+    border: 1px solid;
 }
 
-
-button { 
+/* I used the padding and margin to fix a good location for the button and also i used a different bg color for it*/
+button {
     padding: 1px;
     margin: 1px;
     background-color: rgb(206, 171, 171);
 }
+
+/* Firstly, my button was looking very simple and i got a feedback to style it so i styled it. I also got an advise to align the images to the center to give them a look of sequence so i center-aligned them*/
