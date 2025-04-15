@@ -1,13 +1,24 @@
-
-function show message  () {
-    alert ('Welcome to our family');
+// Function to show an alert message
+function showMessage() {
+    alert('Welcome to our family');
 }
 
+// Hover effect when mouse is over the button
+document.getElementById('hoverbutton').addEventListener('mouseover', function () {
+    document.getElementById('hoverbutton').style.background =     'grey';
+});
 
-document.getElementById('hoverbutton').onmouseover= function() {
-    document.getElementById('hoverbutton').style.background= 'light brown';
-}
+// Revert the button background when mouse leaves
+document.getElementById('hoverbutton').addEventListener('mouseleave', function () {
+    document.getElementById('hoverbutton').style.background = 'red';
+})
 
-document.getElementById('hoverbutton').onmouseleave= function() { 
-    document.getElementById('hoverbutton').style.background= 'dark green'
-}
+let count = 0;
+document.getElementById('buttoncounter').onclick = function() {
+     count = count + 1;
+     document.getElementById('counter').innerHTML = 'you clicked this '+ count+ 'times';
+     if
+    }
+
+
+
