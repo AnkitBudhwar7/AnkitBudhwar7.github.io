@@ -1,9 +1,7 @@
-function showMessage()
-{  
-    let age = 15;
-    let Name = "James";
 
-    if  (age >= 18)
+function show message  () {
+    alert ('Welcome to our family');
+}
 
-        {m}
 
+document.ElementById
